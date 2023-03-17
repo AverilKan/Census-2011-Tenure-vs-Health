@@ -2,8 +2,8 @@
 This data science project focuses on the analysis of the UK population's health and tenure rates. The project utilizes data downloaded from the Nomis database, containing information on general health, tenure class, age, date, and geographic encoding. The goal of this project is to provide valuable insights into the relationship between tenure categories and general health conditions in the UK population, which could serve as a reference for policymakers in improving the socio-economic well-being of the population.
 
 ## Technologies Used
-Python
-Tableau
+- Python
+- Tableau
 ## Data Preparation
 The datasets used in this project were downloaded from the Nomis database and are formatted in a CSV file containing multiple tables. The basic data wrangling process involved aligning all keys and tables into a separate list by their respective index. Further wrangling processes were performed inside each iteration depending on the area of interest. For the analysis task, the population data was transformed into percentages and identified as quantitative, categorical, and ordinal data. For the query task, data projection methods such as PCA and UMAP were used to decompose the attributes into lower dimensions for visualisation.
 
